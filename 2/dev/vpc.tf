@@ -1,4 +1,4 @@
-module "google_compute_network" "vpc"{
+module "vpc"{
     source = "../"
     name   = "vpc-tf-dev"
 }
