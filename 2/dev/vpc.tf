@@ -1,4 +1,5 @@
 module "vpc"{
-    source = "github.com/j-lrx/demo-terraform/2"
-    name   = "vpc-tf-dev"
+    source  = "github.com/j-lrx/module/basic/vpc"
+    name    = "vpc-tf-dev"
+    project = "julienleroux"
 }
