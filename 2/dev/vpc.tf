@@ -1,4 +1,4 @@
 module "vpc"{
-    source = "../"
+    source = "./"
     name   = "vpc-tf-dev"
 }
