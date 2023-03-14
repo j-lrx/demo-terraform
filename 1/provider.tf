@@ -1,4 +1,4 @@
 provider "google" {
-  project     = "julien-le-roux"
+  project     = "julienleroux"
   region      = "europe-west1"
 }
